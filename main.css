@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #A28051;
+    font-family: 'Lato', sans-serif;
+}
+
+header li{
+    display: inline;
+}
+
+header li a{
+    text-decoration: none;
+    margin-left: 8px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+main img{
+    width: 550px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.boss img{
+    height: 55px;
+    margin-right: 8px;
+}
+
+.boss {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 36px;
+    margin-left: 16px;
+
+}
+
+#about .container{
+    display: flex;
+}
+
+article .content{
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.content h2{
+    margin-bottom: 16px;
+    font-family: 'Lato', sans-serif;
+    color:#A28051;
+}
+
+article p{
+    font-family: 'Roboto Slab', serif;
+    color:#A28051;
+}
+
+#contact{
+    margin-top: 32px;
+}
+
+.communicate {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact h2, h3{
+    color: #A28051;
+    font-family: 'Lato', sans-serif;
+
+}
+
+form input, textarea, button{
+    display: block;
+    padding: 8px;
+    width: 320px;
+    margin-top: 8px;
+    font-family: 'Roboto Slab', serif;
+    color:#A28051;
+}
+
+#contact h3{
+    margin-bottom: 16px;
+}
+
+textarea {
+    resize: none;
+    height: 180px;
+}
+
+button{
+color: black;
+background-color: #A28051;
+border: none;
+cursor: pointer;
+font-weight: 700;
+}
+
+button:hover{
+    background-color: #775b33;
+}
+
+input:focus, textarea:focus{
+    outline-color: #A28051;
+}
+
+.follow li img{
+    height: 24px;
+}
+
+.follow li{
+    display: inline;
+}
+
+.follow li a{
+    margin-right: 8px;
+}
+
+footer .container{
+    margin-top: 32px;
+    padding: 16px;
+    color: black;
+    background-color: #A28051;
+}
